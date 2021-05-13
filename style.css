@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla&family=Lora&display=swap');
+
+body {
+    /* font-family: 'Bebas', sans-serif; */
+    color: rgb(61, 88, 100);
+}
+
+nav {
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.navbar-expand-lg {
+    background: transparent;
+}
+
+.navbar-expand-lg.scrolled {
+    background-color: rgba(221, 233, 240, 0.986);
+    transition: background-color 900ms ease-in;
+    transition-delay: 100ms;
+}
+
+.nav-link {
+    color: rgb(73, 99, 110) !important;
+    margin: 0 25px 0 25px !important;
+}
+
+.nav-link:hover {
+    color: rgb(20, 89, 110) !important;
+    font-weight: bolder !important;
+    transform: scale(1.25);
+}
+
+.navbar-brand:hover {
+    transform: rotate(-0.025turn) scale(1.25);
+}
+
+.anchor:target {
+    padding-top: 65px;
+}
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/landing-bg.jpeg);
+}
+
+.heading-col {
+    padding-top: 38%;
+}
+
+.heading-intro {
+    text-transform: uppercase;
+    text-align: right;
+    color: rgb(20, 89, 110);
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+.junior {
+    font-size: 2.2rem;
+    letter-spacing: 5.2px;
+    line-height: 0;
+    color:rgb(61, 88, 100);
+}
+
+.about {
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: rgb(20, 89, 110);
+}
+
+.about-me {
+    height: 100vh;
+    width: 100vw;
+}
+
+.my-photo {
+    border-radius: 40%;
+    height: 400px;
+    width: auto;
+}
+
+.about-stats {
+    text-align: right;
+    justify-content: right;
+}
+
+
+ul.tidbits {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    padding-top: 30px;
+    justify-content: left;
+}
+
+.buttons {
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    padding: 6px 12px;
+    color: rgb(20, 89, 110);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.buttons:hover {
+    border: none;
+    border-radius: 2px;
+    padding: 6px 12px;
+    background-color: rgb(20, 89, 110);
+    color: rgb(246, 255, 255);
+}
+
+.projects {
+    padding-top: 20px;
+    margin-bottom: -50px;
+}
+
+h2.projects {
+    text-transform: uppercase;
+    color: rgb(20, 89, 110);
+    padding-bottom: 5px;
+}
+
+.cardImg {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-image: url(assets/landing-bg.jpeg);
+    text-align: center;
+    color: rgb(20, 89, 110);
+    padding: 20%;
+}
+
+h4.card-overlay {
+    text-transform: uppercase;
+}
+
+.card:hover .card-overlay {
+    opacity: 0.9;
+}
+
+.container form {
+    margin: 0 auto;
+    width: 50%
+}
+
+.formspree-here {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    border-radius: 2px;
+    background-color: rgba(228, 235, 239, 0.568);
+    margin: 5px;
+    padding: 8px;
+}
+
+.form {
+    background-image: url(assets/connect-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 8px;
+    padding-bottom: 20px;
+}
+
+h2.connect {
+    text-transform: uppercase;
+    color: rgb(20, 89, 110);
+    padding-bottom: 10px;
+}
+
+label {
+    float: left;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+textarea, input {
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.301);
+    resize: none;
+    outline: none;
+}
+
+.elsewhere {
+    padding-top: 10px;
+}
+
+h2.elsewhere {
+    text-transform: uppercase;
+    color: rgb(20, 89, 110);
+}
+
+.elsewhere img {
+    float: right;
+}
+
+.elsewhere img:hover {
+    transform: rotate(-0.005turn) scale(1.05);
+}
+
+.elsewhere .row {
+    padding-top: 40px;
+}
+
+
+
+footer {
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    padding-top: 50px;
+    color:rgb(20, 89, 110);
+}
